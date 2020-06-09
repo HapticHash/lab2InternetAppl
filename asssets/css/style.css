@@ -5,7 +5,11 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    background-color: #eee;
+    background-color: #c5c5c5;
+    background-image: url('/asssets/images/bb.jpg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 .container {
     width: 100%;
@@ -47,7 +51,6 @@ a {
     transform: translate(-50%, -50%);
     font-family: 'Montserrat', sans-serif;
     font-size: 3vw;
-    /* text-align: center; */
     color: #fff;
 }
 .subtitle {
@@ -98,7 +101,8 @@ h2 {
     font-weight: 700;
     text-align: center;
     color: #111;
-    margin: 1em 0;
+    margin: 0.5em 0;
+    text-decoration: underline;
 }
 .itemList {
     font-size: 1vw;
@@ -114,6 +118,7 @@ h2 {
 }
 .cardioImg {
     margin: 10px;
+    float: right;
 }
 
 /*************** details.html ***************/
@@ -122,7 +127,7 @@ h2 {
 }
 .detailsImg > img {
     width: 35vw;
-    margin: 5vh;
+    /* margin: 5vh; */
 }
 .detailspecs {
     margin: 1vw 2vw;
@@ -153,6 +158,39 @@ h2 {
     width: 80%;
     margin: 3vw auto;
 }
+/*************** classes.html ***************/
+.subheading {
+    text-align: center;
+    font-size: 1.2vw;
+    margin:0.5em 0;
+    font-weight: 500;
+}
+.tableGroup {
+    width: 80%;
+    margin: 2em auto;
+}
+table {
+    text-align: center;
+    background: #34495E;
+    border-radius: .5em;
+    width: 100%;
+    padding: 1vw;
+}
+td, th {  
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+}
+tr{
+    border-color: #34495E;
+}
+th {
+    color: #dd5;
+    font-weight: 600;
+    font-family: 'Montserrat',sans-serif;
+}
+
+
 /*************** services.html ***************/
 .test {
     margin: 0 auto;
@@ -189,9 +227,6 @@ input[type=text], #address {
 #Membership {
     font-size: 1vw;
     padding: 2px;
-}
-.method {
-    /* margin-bottom: 0.5em; */
 }
 input[type=radio], input[type=checkbox] {
     padding: 1em;
