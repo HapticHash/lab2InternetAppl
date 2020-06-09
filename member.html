@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife Center</title>
+    <link rel="stylesheet" href="./asssets/css/style.css">
+
+</head>
+<body>
+    <div class="container">
+
+        <nav class="nav">
+            <a href="index.html"> <img class="logo" src="./asssets/images/logo.png"> </a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="classes.html">Classes</a>
+            <a href="services.html">Services</a>
+            <a href="member.html">Memberships</a>
+        </nav>
+    
+        <h1 class="commonTitle">Welcome to FitLife Fitness and Training Center!</h1>
+        <h2 class="commonSubtitle">Everyone needs a Tune-up</h2>
+
+        <div class="heading"> Become a member today! </div>
+
+        <form class="form" action="success.html">
+           
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <input type="text" id="email" name="email" placeholder="Enter your email address" required>
+            
+            <textarea id="address" rows="4" cols="50" placeholder="Enter your home address" required></textarea>
+            <br>
+            <label for="Membership">Type of Membership :</label>
+            <select name="Membership" id="Membership" required>
+                <option value="monthly pay-as-you-go">Monthly pay-as-you-go</option>
+                <option value="3 months">3 months</option>
+                <option value="6 months">6 months</option>
+                <option value="12 months">12 months</option>
+            </select>
+
+            <div class="pay">
+                <p class="method">Method of Payment :</p>
+                <input type="radio" id="debit" name="payment" value="debit" required>
+                <label for="debit">Debit Card</label><br>
+                <input type="radio" id="credit" name="payment" value="credit">
+                <label for="credit">Credit Card</label>
+            </div>
+            
+            <div class="promos">
+                <input type="checkbox" id="promo" name="promo" value="Yes">
+                <label for="promo"> Yes. Please send me email updates about upcoming new promotions and latest news</label>
+            </div>
+            
+            <div class="formEnd">
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </div>
+            
+
+        </form>
+
+    </div>
+   
+</body>
+</html>

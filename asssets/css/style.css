@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Roboto:wght@400;500&display=swap');
+
+/*************** index.html ***************/
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #eee;
+}
+.container {
+    width: 100%;
+    height: auto;
+    clear:both;
+    overflow:auto;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.nav {
+    width: 100%;  
+    height: auto;
+    background-color: #010101; 
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 5vw;
+    height: 3vw;
+    margin-top: 10px;    
+}
+.nav > a {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0em 1em;
+    height: auto;        
+    line-height: 80px;    
+}
+.mainImg {
+    width: 100%;
+    height: auto;
+}
+.title {
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+    /* text-align: center; */
+    color: #fff;
+}
+.subtitle {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    color: #fff;   
+    -webkit-text-stroke: 1px black;
+}
+.items {
+    position: absolute;
+    /* display: flex; */
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.1vw;
+    text-align: center;
+   
+}
+.para1, .para2, .para3 {
+    background-color: #121212;
+    /* margin-right: 2em; */
+    padding: 1em 2em;
+    border-radius: 2em;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2vw;
+    text-align: center;
+    font-weight: 800;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+    font-weight: 700;
+}
+/*************** cardio.html ***************/
+.heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    font-weight: 700;
+    text-align: center;
+    color: #111;
+    margin: 1em 0;
+}
+.itemList {
+    font-size: 1vw;
+    margin-left: 1vw;
+}
+.group {
+    display: flex;
+    padding: 1em;
+    font-size: 1vw;
+}
+.itemName {
+    margin: 3em 1em;
+}
+.cardioImg {
+    margin: 10px;
+}
+
+/*************** details.html ***************/
+.details {
+    display: flex;
+}
+.detailsImg > img {
+    width: 35vw;
+    margin: 5vh;
+}
+.detailspecs {
+    margin: 1vw 2vw;
+    width: 55vw;
+}
+.pTop {
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+.specs {
+    font-size: 1.5vw;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.pMid, .pBottom, .detailsList {
+    font-size: 1vw;
+}
+
+/*************** about.html ***************/
+.aboutDesc, .servicesDesc{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1vw;
+    text-align: center;
+}
+.aboutFeat {
+    display: flex;
+    width: 80%;
+    margin: 3vw auto;
+}
+/*************** services.html ***************/
+.test {
+    margin: 0 auto;
+    width: 80%;
+}
+.servicesGroup {
+    margin: 2vw auto;
+    display: flex;
+    /* text-align: center; */
+    align-items:center;
+}
+.servicesImg > img {
+    width: 13vw;
+    margin-left: 4vw;
+}
+.servicesImgDesc {
+    font-size: 1vw;
+    margin: 0 1vw;
+    text-align: justify;
+}
+
+/*************** member.html ***************/
+.form {
+    width: 35%;
+    margin: 0 auto;
+    font-size: 1vw;
+}
+input[type=text], #address {
+    display: block;
+    padding: 1em;
+    width: 100%;
+    margin: 1em;
+}
+#Membership {
+    font-size: 1vw;
+    padding: 2px;
+}
+.method {
+    /* margin-bottom: 0.5em; */
+}
+input[type=radio], input[type=checkbox] {
+    padding: 1em;
+    height: 1.1em;
+    width: 1.1em;
+}
+label, .pay, .promos {
+    margin-left: 0.5em;
+}
+#promo {
+    margin-top: 2em;
+}
+.formEnd {
+    display: flex;
+}
+input[type=reset], input[type=submit] {
+    padding: 1em 3em;
+    margin: 1.2em auto;
+    font-size: 1vw;
+    border-radius: 2em;
+    border: 0;
+}
+input[type=reset] {
+    background-color: #f44336;
+    color: #fff;
+}
+input[type=submit] {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+/*************** success.html ***************/
+.done {
+    text-align: center;
+}
+.check {
+    width: 15vw;
+}
+.successText {
+    font-size: 1.2vw;
+    text-align: center;
+    width: 50%;
+    margin: 5vh auto;
+    line-height: 1.5em;
+}
