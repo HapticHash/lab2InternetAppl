@@ -6,7 +6,7 @@ body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     background-color: #c5c5c5;
-    background-image: url('/asssets/images/bb.jpg');
+    background-image: url('../images/bb.jpg');
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
